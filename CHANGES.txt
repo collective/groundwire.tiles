@@ -1,0 +1,18 @@
+Changelog
+=========
+
+1.0 (unreleased)
+----------------
+
+* Tiles must now set the X-Tile-Editable response header to 1 to make
+  an editable border be shown for the tile. The included sample tiles
+  set it based on the 'Modify portal content' permission for the tile's
+  context (which is a change from before, when the same permission was
+  checked in the context where the tile was being included).
+  [davisagli - 2012-05-16]
+
+* Rich text and plain text tile values are no longer required.
+  [matty - 2012-02-22]
+
+* Initial release.
+  []
